@@ -8,10 +8,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ResolveUUID extends EvalFunc<Tuple> {
+public class TimeUUID extends EvalFunc<Tuple> {
     private static final TupleFactory tupleFactory = TupleFactory.getInstance();
 
-    public ResolveUUID() {
+    public TimeUUID() {
         super();
     }
 

@@ -58,12 +58,6 @@
 			<version>1.2.13</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.apache.cassandra</groupId>
-			<artifactId>cassandra-javautils</artifactId>
-			<version>0.7.1</version>
-		</dependency>
-
 
 
 
