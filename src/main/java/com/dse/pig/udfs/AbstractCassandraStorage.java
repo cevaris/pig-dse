@@ -174,9 +174,8 @@ public abstract class AbstractCassandraStorage extends LoadFunc implements Store
            pair.set(position, new DataByteArray(ByteBufferUtil.getArray((ByteBuffer) value)));
        else if (value instanceof Date)
            pair.set(position, DateType.instance.decompose((Date) value).getLong());
-       else if (value instanceof java.util.UUID){
+       else if (value instanceof java.util.UUID)
     	   pair.set(position, value.toString());
-       }
        else
            pair.set(position, value.toString());
     }
